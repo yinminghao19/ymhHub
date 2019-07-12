@@ -1,6 +1,6 @@
-# YmhApp
+# Angular练习工程
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+安装 Angular CLI version 7.3.1 $ npm install -g @angular/cli
 
 ## Development server
 
