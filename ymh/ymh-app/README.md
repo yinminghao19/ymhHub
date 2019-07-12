@@ -1,27 +1,35 @@
-# Angular练习工程
+# 安装Node.js
+https://nodejs.org/en/
 
-安装 Angular CLI version 7.3.1 $ npm install -g @angular/cli
+# 查看版本
+$ node - v # 显示当前Node.js的版本
+$ npm -v # 显示当前npm的版本
 
-## Development server
+# 安装typescript
+$ npm install -g typescript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# 安装 Angular CLI
+$ npm install -g @angular/cli
 
-## Code scaffolding
+# 查看版本
+$ ng version
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# 创建目录
+$ ng new [project]
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+###可用选项
+*dry-run: boolean, 默认为 false, 若设置 dry-run 则不会创建任何文件
+*verbose: boolean, 默认为 false
+*link-cli: boolean, 默认为 false, 自动链接到 @angular/cli 包
+*skip-install: boolean, 默认为 false, 表示跳过 npm install
+*skip-git: boolean, 默认为 false, 表示该目录不初始化为 git 仓库
+*skip-tests: boolean, 默认为 false, 表示不创建 tests 相关文件
+*skip-commit: boolean, 默认为 false, 表示不进行初始提交
+*directory: string, 用于设置创建的目录名，默认与应用程序的同名
+*source-dir: string, 默认为 'src', 用于设置源文件目录的名称
+*style: string, 默认为 'css', 用于设置选用的样式语法 ('css', 'less' or 'scss')
+*prefix: string, 默认为 'app', 用于设置创建新组件时，组件选择器使用的前缀
+*mobile: boolean, 默认为 false,表示是否生成 Progressive Web App 应用程序
+*routing: boolean, 默认为 false, 表示新增带有路由信息的模块，并添加到根模块中
+*inline-style: boolean, 默认为 false, 表示当创建新的应用程序时，使用内联样式
+*inline-template: boolean, 默认为 false, 表示当创建新的应用程序时，使用内联模板
